@@ -1,6 +1,5 @@
 import config from "@/config/site.config";
 import Skills from "@/components/Skills";
-import avatar from "@/app/avatar.png";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 
@@ -11,7 +10,9 @@ export default async function Home() {
         <figure className="animate-rotate aspect-square place-self-center">
           <Image
             className="size-70 rounded-2xl outline-5 -outline-offset-1 outline-sky-100 select-none dark:outline-sky-900"
-            src={avatar}
+            src="/avatar.avif"
+            height={275}
+            width={275}
             alt={`${config.author}`}
             priority
           />
