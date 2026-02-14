@@ -34,20 +34,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="zh-CN" suppressHydrationWarning>
       <body
         className={`${misans.variable} grid gap-5 antialiased selection:bg-sky-400/30`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          value={{
-            light: "light",
-            dark: "dark",
-            system: "system",
-          }}
-        >
+        <ThemeProvider attribute="class" defaultTheme="system">
           <Animations />
           <NextTopLoader color="#51A8DD" />
           {children}
