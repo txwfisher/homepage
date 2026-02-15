@@ -1,76 +1,38 @@
-"use client";
-
-import React, { useEffect, useRef } from "react";
-import config from "@/config/site.config";
+import siteConfig from "@/config/site.config";
 import Image from "next/image";
 
-const Skills: React.FC = () => {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const contentRef = useRef<HTMLDivElement>(null);
-  const animationRef = useRef<number>(0);
-  const positionRef = useRef<number>(0);
-  const lastTimeRef = useRef<number>(0);
-  const isPausedRef = useRef<boolean>(false);
-  const speed = 75;
-
-  const tripleSkills = [
-    ...config.skills,
-    ...config.skills,
-    ...config.skills,
-    ...config.skills,
-    ...config.skills,
-  ];
-
-  useEffect(() => {
-    if (!containerRef.current || !contentRef.current) return;
-
-    const content = contentRef.current;
-    const singleGroupWidth = content.scrollWidth / 5;
-
-    const animate = (timestamp: number) => {
-      if (!lastTimeRef.current) lastTimeRef.current = timestamp;
-      const deltaTime = timestamp - lastTimeRef.current;
-      lastTimeRef.current = timestamp;
-
-      if (!isPausedRef.current) {
-        positionRef.current -= (speed * deltaTime) / 1000;
-
-        if (Math.abs(positionRef.current) >= singleGroupWidth) {
-          positionRef.current = 0;
-        }
-
-        content.style.transform = `translateX(${positionRef.current}px)`;
-      }
-
-      animationRef.current = requestAnimationFrame(animate);
-    };
-
-    animationRef.current = requestAnimationFrame(animate);
-
-    return () => {
-      cancelAnimationFrame(animationRef.current);
-    };
-  }, [speed]);
+const Skills = () => {
+  const skills = siteConfig.skills;
 
   return (
-    <div
-      className="relative grid h-40 place-content-center overflow-hidden rounded-lg bg-blue-100 select-none dark:bg-gray-900"
-      ref={containerRef}
-    >
-      <div ref={contentRef} className="grid grid-flow-col">
-        {tripleSkills.map((skill, index) => (
+    <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
+      {/* 技能网格 */}
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 lg:grid-cols-5">
+        {skills.map((skill, index) => (
           <div
-            key={`icon-${index}`}
-            className="group grid place-items-center gap-3 px-4"
+            key={skill.name}
+            className="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-6 shadow-lg transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl dark:border-gray-700 dark:bg-gray-800"
           >
-            <div className="relative size-20 transition-all duration-300 group-hover:scale-110">
-              <Image src={skill.icon} alt={skill.name} fill />
+            {/* 技能图标容器 */}
+            <div className="relative flex flex-col items-center gap-3">
+              <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-gray-50 p-2.5 shadow-sm transition-all duration-300 group-hover:scale-110 group-hover:rotate-2 dark:bg-gray-700/50">
+                <Image
+                  src={skill.icon}
+                  alt={skill.name}
+                  width={48}
+                  height={48}
+                  className="object-contain"
+                />
+              </div>
+              {/* 技能名称 */}
+              <h3 className="text-center text-sm font-semibold text-gray-800 transition-colors group-hover:text-indigo-600 dark:text-white dark:group-hover:text-indigo-400">
+                {skill.name}
+              </h3>
             </div>
-            <span className="text-xs">{skill.name}</span>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
