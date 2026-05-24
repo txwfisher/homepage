@@ -4,7 +4,7 @@ export default {
   subtitle: "慢慢来，比较快。",
   identities: ["野生程序员", "街头摄影师"],
   bilibili_uid: "473933020", // 若需更换可告知
-  startYear: 2024,
+  startYear: 2025,
   projects: [
     {
       name: "Tuco's Home",
