@@ -8,14 +8,14 @@ export default {
   projects: [
     {
       name: "Tuco's Home",
-      description: "个人主页",
-      icon: "/public/file/tx.png",
+      description: "欢迎来到我的数字自留地 🏠",
+      icon: "/public/file/home.png",
       link: "https://tucong.vip/", // 建议补充实际链接
     },
     {
       name: "Tea Bush",
-      description: "我的博客",
-      icon: "/public/file/tx.png",
+      description: "关于代码、生活与碎碎念的收集地",
+      icon: "/public/file/blog.png",
       link: "https://www.tucong.vip/", // 补充自你提供的博客入口
     },
     {
@@ -26,19 +26,19 @@ export default {
     },
     {
       name: "Tea IMG",
-      description: "基于 CloudFlare 的文件托管服务",
+      description: "跑在 CloudFlare 上的图床新选择",
       icon: "/public/file/img.png",
       link: "https://img.tucong.vip/", // 补充自你提供的图床
     },
     {
       name: "Tea Proxy",
-      description: "一个简单的代理加速服务",
+      description: "轻量、高效的网络加速解决方案",
       icon: "/public/file/proxy.png",
       link: "https://proxy.tucong.vip/", // 补充自你提供的代理站
     },
     {
       name: "阅读 · 链接净化导入",
-      description: "在线链接净化与导入工具",
+      description: "​智能净化链接，一键导入阅读 App",
       icon: "/public/file/yjdr.png",
       link: "https://purge.tucong.vip/", // 补充自你提供的净化工具
     },
