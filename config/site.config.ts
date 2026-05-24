@@ -10,7 +10,7 @@ export default {
       name: "Tuco's Homepage",
       description: "个人主页",
       icon: "/file/1779593781139_tx.jpg",
-      link: "/", // 建议补充实际链接
+      link: "https://tucong.vip/", // 建议补充实际链接
     },
     {
       name: "Tea Bush",
