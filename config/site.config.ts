@@ -1,5 +1,5 @@
 export default {
-  author: "Tuco's Home",
+  author: "荼丛",
   description: "Tuco's Homepage",
   subtitle: "慢慢来，比较快。",
   identities: ["野生程序员", "街头摄影师"],
