@@ -24,8 +24,11 @@ const misans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: config.author,
-  description: config.description,
+  title: "Tuco's Home", // ✅ 浏览器标签页标题
+  description: config.description, // Tuco's Homepage
+  icons: {
+    icon: "/avatar.avif", // ✅ 浏览器 tab 图标
+  },
 };
 
 export default function RootLayout({
