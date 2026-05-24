@@ -3,11 +3,11 @@ export default {
   description: "Tuco's Homepage",
   subtitle: "慢慢来，比较快。",
   identities: ["野生程序员", "街头摄影师"],
-  bilibili_uid: "1919386217", // 若需更换可告知
+  bilibili_uid: "473933020", // 若需更换可告知
   startYear: 2024,
   projects: [
     {
-      name: "Tuco's Homepage",
+      name: "Tuco's Home",
       description: "个人主页",
       icon: "/file/1779593781139_tx.jpg",
       link: "https://tucong.vip/", // 建议补充实际链接
