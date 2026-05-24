@@ -9,37 +9,37 @@ export default {
     {
       name: "Tuco's Home",
       description: "个人主页",
-      icon: "/file/1779593781139_tx.jpg",
+      icon: "/public/file/tx.png",
       link: "https://tucong.vip/", // 建议补充实际链接
     },
     {
       name: "Tea Bush",
       description: "我的博客",
-      icon: "/file/1779593781139_tx.jpg",
+      icon: "/public/file/tx.png",
       link: "https://www.tucong.vip/", // 补充自你提供的博客入口
     },
     {
       name: "Legado 版本归档",
       description: "让阅读，有更多选择",
-      icon: "/file/Legado.png",
+      icon: "/public/file/Legado.png",
       link: "https://legado.tucong.vip/", // 补充自你提供的归档站
     },
     {
       name: "Tea IMG",
       description: "基于 CloudFlare 的文件托管服务",
-      icon: "/file/logol.png",
+      icon: "/public/file/img.png",
       link: "https://img.tucong.vip/", // 补充自你提供的图床
     },
     {
       name: "Tea Proxy",
       description: "一个简单的代理加速服务",
-      icon: "/file/1776584004028_heybox_1776583922209_843627989.png",
+      icon: "/public/file/proxy.png",
       link: "https://proxy.tucong.vip/", // 补充自你提供的代理站
     },
     {
       name: "阅读 · 链接净化导入",
       description: "在线链接净化与导入工具",
-      icon: "/file/1776584004124_heybox_1776583906646_707950820.png",
+      icon: "/public/file/yjdr.png",
       link: "https://purge.tucong.vip/", // 补充自你提供的净化工具
     },
   ],
