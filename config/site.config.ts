@@ -52,7 +52,7 @@ export default {
   ],
   socials: [
     { name: "Blog", icon: "line-md:edit-full-twotone", link: "https://www.tucong.vip/" },
-    { name: "Email", icon: "line-md:email-alt-twotone", link: "mailto:pzjawa@qq.com" }, // 若需更换邮箱可告知
+    { name: "Email", icon: "line-md:email-alt-twotone", link: "mailto:txwfisher@gmail.com" }, // 若需更换邮箱可告知
     { name: "GitHub", icon: "line-md:github-twotone", link: "https://github.com/txwfisher" },
   ],
 } as const;
