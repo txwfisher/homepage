@@ -11,11 +11,12 @@ export default async function Home() {
         <figure className="animate-rotate aspect-square place-self-center">
           <Image
             className="size-70 rounded-2xl outline-5 -outline-offset-1 outline-sky-100 select-none dark:outline-sky-900"
-            src="/avatar.avif"
+            src={config.avatar}   // ✅ 使用外部图床头像
             height={275}
             width={275}
             alt={config.author}
             priority
+            unoptimized          // ✅ 外部图片必须加
           />
         </figure>
 
@@ -99,7 +100,7 @@ export default async function Home() {
                   {project.description}
                 </p>
 
-                {/* ✅ 关键修改：用原生 img，100% 稳 */}
+                {/* ✅ 外部图片 / 本地图片都稳 */}
                 {project.icon && (
                   <img
                     src={project.icon}
