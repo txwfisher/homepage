@@ -6,6 +6,7 @@ import Image from "next/image";
 export default async function Home() {
   return (
     <main className="grid min-h-screen place-content-center gap-30 p-5">
+      {/* Avatar & Intro */}
       <div className="mt-[15vh] grid grid-cols-1 place-items-center gap-20 md:mt-[25vh] md:grid-cols-2">
         <figure className="animate-rotate aspect-square place-self-center">
           <Image
@@ -13,10 +14,11 @@ export default async function Home() {
             src="/avatar.avif"
             height={275}
             width={275}
-            alt={`${config.author}`}
+            alt={config.author}
             priority
           />
         </figure>
+
         <section className="animate-fade-in-up place-self-center md:place-self-end">
           <p className="text-5xl/15 dark:text-gray-200">Hi,</p>
           <h1 className="text-5xl/15">
@@ -25,6 +27,7 @@ export default async function Home() {
               {config.author}
             </span>
           </h1>
+
           {(() => {
             const groupSize = 3;
             const groups = [];
@@ -54,7 +57,10 @@ export default async function Home() {
           })()}
         </section>
       </div>
+
+      {/* About / Projects / Skills */}
       <div className="grid w-80 place-content-center gap-10 md:w-full md:max-w-180">
+        {/* About */}
         <section className="animate-fade-in-up grid gap-3">
           <h2 className="size-fit rounded-lg bg-sky-100 px-3 py-1 text-center text-xl text-sky-800 decoration-2 underline-offset-3 hover:text-sky-900 dark:bg-sky-800 dark:text-sky-50 dark:hover:text-sky-100">
             About
@@ -71,6 +77,8 @@ export default async function Home() {
             {config.subtitle}
           </p>
         </section>
+
+        {/* Projects */}
         <section className="animate-fade-in-up grid gap-5">
           <h2 className="size-fit rounded-lg bg-sky-100 px-3 py-1 text-center text-xl text-sky-800 decoration-2 underline-offset-3 hover:text-sky-900 dark:bg-sky-800 dark:text-sky-50 dark:hover:text-sky-100">
             Projects
@@ -80,6 +88,8 @@ export default async function Home() {
               <a
                 href={project.link}
                 key={project.name}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="relative min-h-25 w-full overflow-hidden rounded-lg border border-transparent bg-sky-100 p-2 transition-colors duration-200 hover:border hover:border-gray-400/50 hover:bg-sky-200 dark:bg-gray-800/80 dark:hover:bg-gray-700/90"
               >
                 <h3 className="text-base font-bold text-slate-800 dark:text-gray-200">
@@ -88,19 +98,23 @@ export default async function Home() {
                 <p className="text-sm text-gray-700 dark:text-gray-300">
                   {project.description}
                 </p>
+
+                {/* ✅ 关键修改：用原生 img，100% 稳 */}
                 {project.icon && (
-                  <Image
+                  <img
                     src={project.icon}
                     alt={project.name}
                     width={80}
                     height={80}
-                    className="absolute -top-2 -right-2 rounded-full opacity-25 select-none"
+                    className="pointer-events-none absolute -top-2 -right-2 rounded-full opacity-25 select-none"
                   />
                 )}
               </a>
             ))}
           </div>
         </section>
+
+        {/* Skills */}
         <section className="animate-fade-in-up grid gap-5">
           <h2 className="size-fit rounded-lg bg-sky-100 px-3 py-1 text-center text-xl text-sky-800 decoration-2 underline-offset-3 hover:text-sky-900 dark:bg-sky-800 dark:text-sky-50 dark:hover:text-sky-100">
             Skills
