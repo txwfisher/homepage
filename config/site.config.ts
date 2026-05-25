@@ -9,7 +9,7 @@ export default {
     {
       name: "Tuco's Home",
       description: "欢迎来到我的数字自留地 🏠",
-      icon: "https://github.com/txwfisher/homepage/blob/258ef2d197cc24f452339f0a3dbca9d82e75e00f/public/images/home.png",
+      icon: "/images/home.png",
       link: "https://tucong.vip/", // 建议补充实际链接
     },
     {
