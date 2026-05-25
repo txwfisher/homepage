@@ -9,37 +9,37 @@ export default {
     {
       name: "Tuco's Home",
       description: "欢迎来到我的数字自留地 🏠",
-      icon: "/file/home.png",
+      icon: "https://img.tucong.vip/file/1779696815365_home.png",
       link: "https://tucong.vip/", // 建议补充实际链接
     },
     {
       name: "Tea Bush",
       description: "关于代码、生活与碎碎念的收集地",
-      icon: "/file/blog.png",
+      icon: "https://img.tucong.vip/file/1779696815121_blog.png",
       link: "https://www.tucong.vip/", // 补充自你提供的博客入口
     },
     {
       name: "Legado 版本归档",
       description: "让阅读，有更多选择",
-      icon: "/file/legado.png",
+      icon: "https://img.tucong.vip/file/1779696817342_legado.png",
       link: "https://legado.tucong.vip/", // 补充自你提供的归档站
     },
     {
       name: "Tea IMG",
       description: "跑在 CloudFlare 上的图床新选择",
-      icon: "/file/img.png",
+      icon: "https://img.tucong.vip/file/1779696812798_img.png",
       link: "https://img.tucong.vip/", // 补充自你提供的图床
     },
     {
       name: "Tea Proxy",
       description: "轻量、高效的网络加速解决方案",
-      icon: "/file/proxy.png",
+      icon: "https://img.tucong.vip/file/1779696818870_proxy.png",
       link: "https://proxy.tucong.vip/", // 补充自你提供的代理站
     },
     {
       name: "阅读 · 链接净化导入",
       description: "​智能净化链接，一键导入阅读 App",
-      icon: "/file/yjdr.png",
+      icon: "https://img.tucong.vip/file/1779696816140_yjdr.png",
       link: "https://purge.tucong.vip/", // 补充自你提供的净化工具
     },
   ],
