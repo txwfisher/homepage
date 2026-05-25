@@ -6,7 +6,6 @@ export default {
   bilibili_uid: "473933020",
   startYear: 2025,
   
-  // 🔴 重点：这里的 icon 路径必须和你 GitHub 仓库里的文件名 100% 一致
   projects: [
     {
       name: "Tuco's Home",
@@ -29,7 +28,7 @@ export default {
     {
       name: "Tea IMG",
       description: "跑在 CloudFlare 上的图床新选择",
-      icon: "/images/himg.png", // 确保你的仓库里上传的是 himg.png
+      icon: "/images/img.png", // 确保你的仓库里上传的是 himg.png
       link: "https://img.tucong.vip/",
     },
     {
