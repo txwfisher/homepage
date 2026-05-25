@@ -2,45 +2,46 @@ export default {
   author: "荼丛",
   description: "Tuco's Homepage",
   subtitle: "慢慢来，比较快。",
+  avatar: "https://img.tucong.vip/file/1779718704829_avatar.avif", // ✅ 新增
   identities: ["野生程序员", "街头摄影师"],
   bilibili_uid: "473933020",
   startYear: 2025,
-  
+
   projects: [
     {
       name: "Tuco's Home",
       description: "欢迎来到我的数字自留地 🏠",
-      icon: "/images/home.png",
+      icon: "https://img.tucong.vip/file/1779696816140_home.png",
       link: "https://tucong.vip/",
     },
     {
       name: "Tea Bush",
       description: "关于代码、生活与碎碎念的收集地",
-      icon: "/images/blog.png",
+      icon: "https://img.tucong.vip/file/1779696816140_blog.png",
       link: "https://www.tucong.vip/",
     },
     {
       name: "Legado 版本归档",
       description: "让阅读，有更多选择",
-      icon: "/images/legado.png", // ✅ 已修正：确保这里是 legado.png
+      icon: "https://img.tucong.vip/file/1779696816140_legado.png",
       link: "https://legado.tucong.vip/",
     },
     {
       name: "Tea IMG",
       description: "跑在 CloudFlare 上的图床新选择",
-      icon: "/images/img.png", // 确保你的仓库里上传的是 himg.png
+      icon: "https://img.tucong.vip/file/1779696816140_himg.png",
       link: "https://img.tucong.vip/",
     },
     {
       name: "Tea Proxy",
       description: "轻量、高效的网络加速解决方案",
-      icon: "/images/proxy.png",
+      icon: "https://img.tucong.vip/file/1779696816140_proxy.png",
       link: "https://proxy.tucong.vip/",
     },
     {
       name: "阅读 · 链接净化导入",
       description: "智能净化链接，一键导入阅读 App",
-      icon: "/images/yjdr.png",
+      icon: "https://img.tucong.vip/file/1779696816140_yjdr.png",
       link: "https://purge.tucong.vip/",
     },
   ],
