@@ -1,14 +1,16 @@
-import type { NextConfig } from "next";
+import 输入 { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
+const config: NextConfig = {
   images: {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "**",
+        hostname: "img.tucong.vip",
+        port: "",
+        pathname: "/file/**",
       },
     ],
   },
 };
 
-export default nextConfig;
+export default config;
