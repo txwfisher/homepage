@@ -21,7 +21,7 @@ export default {
     {
       name: "Legado 版本归档",
       description: "让阅读，有更多选择",
-      icon: "/images/logado.png",
+      icon: "/images/leegado.png",
       link: "https://legado.tucong.vip/", // 补充自你提供的归档站
     },
     {
