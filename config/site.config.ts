@@ -11,31 +11,31 @@ export default {
     {
       name: "Tuco's Home",
       description: "欢迎来到我的数字自留地 🏠",
-      icon: "https://img.tucong.vip/file/1779696816140_home.png",
+      icon: "https://img.tucong.vip/file/1779696815365_home.png",
       link: "https://tucong.vip/",
     },
     {
       name: "Tea Bush",
       description: "关于代码、生活与碎碎念的收集地",
-      icon: "https://img.tucong.vip/file/1779696816140_blog.png",
+      icon: "https://img.tucong.vip/file/1779696815121_blog.png",
       link: "https://www.tucong.vip/",
     },
     {
       name: "Legado 版本归档",
       description: "让阅读，有更多选择",
-      icon: "https://img.tucong.vip/file/1779696816140_legado.png",
+      icon: "https://img.tucong.vip/file/1779696817342_legado.png",
       link: "https://legado.tucong.vip/",
     },
     {
       name: "Tea IMG",
       description: "跑在 CloudFlare 上的图床新选择",
-      icon: "https://img.tucong.vip/file/1779696816140_img.png",
+      icon: "https://img.tucong.vip/file/1779696812798_img.png",
       link: "https://img.tucong.vip/",
     },
     {
       name: "Tea Proxy",
       description: "轻量、高效的网络加速解决方案",
-      icon: "https://img.tucong.vip/file/1779696816140_proxy.png",
+      icon: "https://img.tucong.vip/file/1779696818870_proxy.png",
       link: "https://proxy.tucong.vip/",
     },
     {
