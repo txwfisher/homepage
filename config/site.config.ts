@@ -29,7 +29,7 @@ export default {
     {
       name: "Tea IMG",
       description: "跑在 CloudFlare 上的图床新选择",
-      icon: "https://img.tucong.vip/file/1779696816140_himg.png",
+      icon: "https://img.tucong.vip/file/1779696816140_img.png",
       link: "https://img.tucong.vip/",
     },
     {
