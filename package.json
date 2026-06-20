@@ -3,13 +3,18 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
     "build": "next build",
+    "dev": "next dev --turbopack",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "^1.19.11",
     "@react-spring/web": "^10.0.3",
     "next": "16.1.6",
     "nextjs-toploader": "^3.9.17",
@@ -35,7 +40,8 @@
     "prettier-plugin-sort-imports": "^1.8.10",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4.1.18",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "wrangler": "^4.103.0"
   },
   "pnpm": {
     "ignoredBuiltDependencies": [
