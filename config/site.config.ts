@@ -11,7 +11,7 @@ export default {
     {
       name: "Tuco's Home",
       description: "欢迎来到我的数字自留地 🏠",
-      icon: "https://cloud.tucong.vip/file/AgACAgUAAyEGAATYW9o6AAMQajXfU8LiWUMpuIB2qMGTLzgMZnYAAgMOaxsua7FV-yxx8EALi4MBAAMCAAN5AAM8BA.png",
+      icon: "https://cloud.tucong.vip/file/AgACAgUAAyEGAATYW9o6AAMSajXfVsTSvAEpXdPdXuczWwsw3ugAAgQOaxsua7FVb1a15iykr2QBAAMCAAN5AAM8BA.png",
       link: "https://tucong.vip/",
     },
     {
