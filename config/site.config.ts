@@ -33,8 +33,15 @@ export default {
       link: "https://monitor.tucong.vip/",
     },
     {
+      name: "Tea Cloud",
+      description: "基于 Cloudflare 的 Serverless 聚合云盘",
+      icon: "https://cloud.tucong.vip/file/AgACAgUAAyEGAATYW9o6AAMWajXfXB-B_0HpfsLwBaAqcqj5m9MAAgYOaxsua7FVOrFVbJjuaBQBAAMCAAN5AAM8BA.png",
+      link: "https://cloud.tucong.vip/",
+    },
+
+    {
       name: "Tea IMG",
-      description: "跑在 CloudFlare 上的图床新选择（密码：tuco）",
+      description: "跑在 CloudFlare 上的图床新选择",
       icon: "https://cloud.tucong.vip/file/AgACAgUAAyEGAATYW9o6AAMaajXfYp1_Xke9ugR5MfWqFsB9Y-cAAggOaxsua7FVDjhtpisgFwIBAAMCAAN5AAM8BA.png",
       link: "https://img.tucong.vip/",
     },
