@@ -2,7 +2,7 @@ export default {
   author: "荼丛",
   description: "Tuco's Homepage",
   subtitle: "慢慢来，比较快。",
-  avatar: "https://img.tucong.vip/file/1779718704829_avatar.avif", // ✅ 新增
+  avatar: "https://cloud.tucong.vip/file/AgACAgUAAyEGAATYW9o6AAMGajXbYx6S9DHM_6BMsZqr7_HNvpcAAv4Naxsua7FVGu1lmV6FpgQBAAMCAANtAAM8BA.jpg", // ✅ 新增
   identities: ["野生程序员", "街头摄影师"],
   bilibili_uid: "473933020",
   startYear: 2024,
