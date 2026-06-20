@@ -5,7 +5,7 @@ export default {
   avatar: "https://cloud.tucong.vip/file/AgACAgUAAyEGAATYW9o6AAMGajXbYx6S9DHM_6BMsZqr7_HNvpcAAv4Naxsua7FVGu1lmV6FpgQBAAMCAANtAAM8BA.jpg", // ✅ 新增
   identities: ["野生程序员", "街头摄影师"],
   bilibili_uid: "473933020",
-  startYear: 2024,
+  startYear: 2023,
 
   projects: [
     {
