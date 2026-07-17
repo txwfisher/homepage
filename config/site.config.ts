@@ -41,13 +41,13 @@ export default {
 
     {
       name: "Tea Music",
-      description: "纯前端音乐播放器，支持搜歌、LRC 歌词同步、128K/320K/FLAC 多音质，可自定义 CORS 代理拉取音源，轻量无后端。",
+      description: "纯前端音乐播放器，可自定义 CORS 代理拉取音源，轻量无后端。",
       icon: "https://cloud.tucong.vip/file/AgACAgUAAyEGAATYW9o6AAMaajXfYp1_Xke9ugR5MfWqFsB9Y-cAAggOaxsua7FVDjhtpisgFwIBAAMCAAN5AAM8BA.png",
       link: "https://music.tucong.vip/",
     },
     {
       name: "Tea Proxy",
-      description: "GitHub 加速，是轻量、高效的网络加速解决方案",
+      description: "轻量、高效的网络解决方案",
       icon: "https://cloud.tucong.vip/file/AgACAgUAAyEGAATYW9o6AAMYajXfX2-qwtLL08jo0xtt-5pOTmkAAgcOaxsua7FVqFs6OTrqQWgBAAMCAAN5AAM8BA.png",
       link: "https://proxy.tucong.vip/",
     },
