@@ -33,21 +33,21 @@ export default {
       link: "https://monitor.tucong.vip/",
     },
     {
-      name: "Tea Cloud",
-      description: "基于 Cloudflare 的 Serverless 聚合云盘",
+      name: "TuCo直链",
+      description: "轻量文件托管服务，上传即生成直链，单文件上限 80MB",
       icon: "https://cloud.tucong.vip/file/AgACAgUAAyEGAATYW9o6AAMWajXfXB-B_0HpfsLwBaAqcqj5m9MAAgYOaxsua7FVOrFVbJjuaBQBAAMCAAN5AAM8BA.png",
-      link: "https://cloud.tucong.vip/",
+      link: "https://dl.tucong.vip/",
     },
 
     {
-      name: "Tea IMG",
-      description: "跑在 CloudFlare 上的图床新选择",
+      name: "Tea Music",
+      description: "纯前端音乐播放器，支持搜歌、LRC 歌词同步、128K/320K/FLAC 多音质，可自定义 CORS 代理拉取音源，轻量无后端。",
       icon: "https://cloud.tucong.vip/file/AgACAgUAAyEGAATYW9o6AAMaajXfYp1_Xke9ugR5MfWqFsB9Y-cAAggOaxsua7FVDjhtpisgFwIBAAMCAAN5AAM8BA.png",
-      link: "https://img.tucong.vip/",
+      link: "https://music.tucong.vip/",
     },
     {
       name: "Tea Proxy",
-      description: "轻量、高效的网络加速解决方案",
+      description: "GitHub 加速，是轻量、高效的网络加速解决方案",
       icon: "https://cloud.tucong.vip/file/AgACAgUAAyEGAATYW9o6AAMYajXfX2-qwtLL08jo0xtt-5pOTmkAAgcOaxsua7FVqFs6OTrqQWgBAAMCAAN5AAM8BA.png",
       link: "https://proxy.tucong.vip/",
     },
